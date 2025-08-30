@@ -4,6 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 // import BlogCard from "../components/BlogCard";
 import "./../styles/main.css";
 import BlogCarousel from "../components/BlogCarousel";
+import HeroSection from "../components/HeroSection";
 
 // Datos de ejemplo (deberías reemplazarlos con tus datos reales)
 const featuredProjects = [
@@ -89,7 +90,7 @@ const Home = () => {
         </div>
       </section> */}
       {/* Hero Section */}
-      <section className="bg-dark-light text-dark-text py-20 relative hero">
+      {/* <section className="bg-dark-light text-dark-text py-20 relative hero">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Diseño Arquitectónico Innovador
@@ -106,7 +107,8 @@ const Home = () => {
             Contactar
           </Link>
         </div>
-      </section>
+      </section> */}
+      <HeroSection />
 
       {/* Sobre Mí */}
       {/* <section className="about-section">
